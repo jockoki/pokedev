@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/pokedev.png">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pokédev</title>
+</head>
+<body>
+    
+    <div id="pokedev">
+        <div id="pokeball" class="pokedex">
+            <div class="top"></div>
+            <div class="center">
+                <div class="center-button" id="btn"></div>
+            </div>
+            <div class="bottom"></div>
+        </div>
+        <div id="pokedex">
+            <div id="top">
+                <div id="top-bar">
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" name="" id="search" placeholder="Nombre ó #">
+                    </div>  
+                    <span id="number">#</span>
+                    <div class="name">
+                        <span id="name"></span>
+                    </div>
+                </div>
+                <div id="poke-image-placeholder">
+                    <img src="" id="pokemon-image" alt="pokemon-image">
+                </div>
+            </div>
+            <div id="data">
+                <div id="types">
+                    <span class="type"></span>
+                    <span class="type"></span>
+                </div>
+
+                <h4 id="base-stats">Estadísticas</h4>
+
+                <div id="stats">
+                    <div class="stat-row">
+                        <div class="stat-desc">HP</div>
+                        <div class="stat-number"></div>
+                        <div class="stat-bar">
+                            <div class="bar-outer">
+                                <div class="bar-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-row">
+                        <div class="stat-desc">ATK</div>
+                        <div class="stat-number"></div>
+                        <div class="stat-bar">
+                            <div class="bar-outer">
+                                <div class="bar-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-row">
+                        <div class="stat-desc">DEF</div>
+                        <div class="stat-number"></div>
+                        <div class="stat-bar">
+                            <div class="bar-outer">
+                                <div class="bar-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-row">
+                        <div class="stat-desc">SATK</div>
+                        <div class="stat-number"></div>
+                        <div class="stat-bar">
+                            <div class="bar-outer">
+                                <div class="bar-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-row">
+                        <div class="stat-desc">SDEF</div>
+                        <div class="stat-number"></div>
+                        <div class="stat-bar">
+                            <div class="bar-outer">
+                                <div class="bar-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-row">
+                        <div class="stat-desc">SPD</div>
+                        <div class="stat-number"></div>
+                        <div class="stat-bar">
+                            <div class="bar-outer">
+                                <div class="bar-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
